@@ -52,7 +52,7 @@ class Triangle{
 	
 	private double bottomLine;
 	private double height;
-	
+
 	public Triangle(double bottomLine, double height) {
 		this.bottomLine = bottomLine;
 		this.height = height;
