@@ -32,7 +32,7 @@ public class TriangleExam {
 				
 			}
 			else if(button == 2) {
-				triangle.printArea();
+				System.out.println("현재 삼각형의 넓이는 : " + triangle.getArea() + "입니다.");
 			}
 			else if (button == 0) {
 				System.out.println("종료하였습니다.");
@@ -62,8 +62,8 @@ class Triangle{
 		this.bottomLine = bottomLine;
 		this.height = height;
 	}
-	public void printArea() {
-		System.out.println("현재 삼각형의 넓이는 : " + (bottomLine * height) / 2 + "입니다.");
+	public double getArea() {
+		return ((bottomLine * height) / 2) ;
 	}
 	
 	
