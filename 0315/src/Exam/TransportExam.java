@@ -90,7 +90,7 @@ class Airplane extends Transport {
     private double speed;      //(비행속력)
     private static double totalJetFuel = 1500;   //(보유하고 있는 ‘항공유’의 양 : 초기값을 1500으로 설정)
     private double jetFuel;       //(거리에 따른 항공유 양 계산 값)
-    
+     
 	public Airplane(String airplanName, double distance, double speed) {
 		super();
 		this.airplanName = airplanName;
